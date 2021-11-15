@@ -1,0 +1,9 @@
+[package]
+name = "dod"
+version = "0.0.0"
+edition = "2018"
+publish = false
+
+[dependencies]
+rocket = "0.5.0-rc.1"
+gomoku_lib = { path = "../gomoku-rust/gomoku" }
